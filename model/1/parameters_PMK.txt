@@ -1,0 +1,78 @@
+Work type (T : time-signal, L : load-location, B : BOTH)[work_type] 
+L
+
+What to maximize (KE: Kinetic energy, Acc: Accleration) [what_to_max]
+KE
+
+Energy maximization type (1: L=L1 -> u_a, 2: L=L2 -> u_ddot_a) [max_type]
+1
+
+Source location type( S= Surface loading D = Downhole wave source ) [source_type_S_D_E]
+S
+
+Surface load time-dependance (1: Gaussian pulse, 2 : Arbitrary force time history, 3: sin loading ) [load_type_tm]
+2
+
+Surface load space-dependance (1: constant pressure, 2 : Gaussian pressure ) [load_type_sp]
+2
+
+Load Direction (xx : x, yy : y) [load_dir]
+xx
+
+The number of loading areas [n_loads]
+3
+
+nfreq (the frequency dependent test ) ------------------ [nfreq]
+210
+
+starting frequency [Hz] (the frequency dependent test )  [start_freq]
+1.0d0
+
+dfreq [Hz](the frequency dependent test )                [d_freq] 
+0.1d0 
+
+Gaussian pulse meanvalue [s] --------------------------- [meanval]
+0.03E+000
+
+Gaussian pulse deviation [s]                             [deviation]
+1.00E-004
+
+Ricker pulse freq[Hz] ---------------------------------- [Ricker_freq]
+25
+
+amplitude of sin OR Gaussian loading[N] ---------------- [test_source_amp]
+10000
+
+Sin loading angular frequency [Hz]                       [test_freq]
+29
+
+The number of Elasticity Modulus ----------------------- [nElasticity]
+1
+
+Elasticity Modulus[N/m^2] [Elasticity(nElasticity)]
+158465163.7
+
+mass_density [kg/m^3]     [mass_density(nElasticity)]
+2200.
+ 
+poissons_ratio            [poissons_ratio(nElasticity)]  
+.134199134
+
+stepL_tm ------------------------------------------
+5.00E+3
+
+stepL_sp
+5.0d-3
+
+stepL_max 
+70000
+
+max_itr
+1000
+
+Minimization type (search direction wise)  [minimization_type]
+(1: Regular St. D. ) 
+(2: St. D. : normalized gradient) 
+(3: C. G. Fletcher-Reeves  Method) 
+(4: C. G. Fletcher-Ribiere Method) 
+3

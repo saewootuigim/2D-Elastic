@@ -1,0 +1,33 @@
+********************************************************************************
+                                                                       DIMENSION
+********************************************************************************
+                               PML length:      4.0000
+                regular domain half width:     50.0000
+                    regular domain height:    100.0000
+ 
+********************************************************************************
+                                                                       MESH INFO
+********************************************************************************
+                          number of nodes:       34121
+                       number of elements:       11232
+ 
+********************************************************************************
+                                                          DEGREE OF FREEDOM INFO
+********************************************************************************
+                            number of DOF:       79939
+                    number of surface DOF:         398
+number of regular domain displacement DOF:       59202
+    number of PML domain displacement DOF:       18440
+     number of inclusion displacement DOF:           0
+                 number of PML stress DOF:       20339
+ 
+********************************************************************************
+                                                             MATERIAL PROPERTIES
+********************************************************************************
+            number of material properties:           1
+                   elastic modulus(N/m^2):  1.5847E+08
+
+                     mass density(kg/m^3):  2.2000E+03
+
+                   Poisson's ratio(N/m^2):  1.3420E-01
+
