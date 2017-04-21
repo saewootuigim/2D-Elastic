@@ -1,0 +1,70 @@
+number of Gauss quadrature nodes (must be an odd number) [NQuad]
+7
+
+quadrature method (1=Gauss-Legendre, 2=Gauss-Kronrod, 3=Gauss-Lobatto) [quad_meth]
+3
+
+(forward) model number (1=100mX100m) [model_num]
+1
+
+What simulation is this? (1=forward, 2=TR) [F_or_T]
+2
+
+time step length [dt]
+0.002
+
+simulation length [Tsim]
+1.
+
+Which response do you want to print? (1=displacement, 2=velocity, 3=acceleration, or any combination) [response]
+1
+
+(forward) How many point loads do you want to apply? [fw_nPntLd]
+1
+
+(forward) In which direction do you want to apply point load? (1=x-dir, 2=y-dir, 3=xy-dir) [fw_PntLd_dir]
+1
+
+(forward) Where do you want to apply load? [fw_load_coord(nPntLd,2)]
+0.	-75.
+
+(forward) source signal (1=Ricker, 2=Gauss, 3=rectangular, 4=DGauss) [fw_src_sgnl]
+4
+
+(forward) central frequency of Ricker pulse, OR, offset for the rectangular pulse [f0]
+.1
+
+(forward) loading duration (2/f0 is recommended for Ricker, 0.2 for Gauss and DGauss) [Tload]
+.2
+
+(TR) How do you want to apply the surface load? (1=as traction, 2=as Dirichlet) [TR_DtN]
+1
+
+(TR) What simulation do you want to use as source? [src_sim]
+1
+
+(TR) Where do you want to apply the surface traction? (0=300m, 1=40m, 2=all, or specify a number) [TR_surf_trac_case]
+2
+
+(TR) In which direction do you want to apply surface traction? (1=x-dir, 2=y-dir, 3=xy-dir) [TR_surf_trac_dir]
+2
+
+(TR) What surface response do you want to use as traction? (1=disp, 2=vel, 3=accel) [TR_surf_trac_resp]
+1
+
+PML constants a0 and b0 (.8, 600.)
+.8	600.
+
+Newmark solver constants alpha, beta
+.25	.5
+
+(forward) If multiple sources, equalize (1=force, 2=response)
+1
+
+(TR) Do you want to apply load at sink? (1=yes, 2=no)
+[TR_apply_sink]
+2
+
+(TR) Do you want to apply surface boundary condition? If yes, how do you want to rescale it? (1=no, 2=yes and normalize, 3=yes and rescale)
+[TR_apply_surf_type]
+2
