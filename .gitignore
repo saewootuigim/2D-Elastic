@@ -27,3 +27,8 @@
 *.exe
 *.out
 *.app
+
+# Output Directories
+forward/*
+TR/*
+
